@@ -1,17 +1,24 @@
-## Projectile Motion Caluclator
+## Projectile Motion Calculator
 
 This project is a Python-based projectile motion simulator that calculates and visualizes the trajectory of an object launched at a 
 specified velocity and angle. The simulator applies classical kinematic equations to determine flight time, maximum height, and 
 horizontal range.
 
-## Features:
-    - Calculates Projecile Trajectory
-    - Computes maximum height
-    - Computes toal flight time
-    - Computes horizontal range
-    - Visualizes trajectory using graphs
-    - Adjustable Gravity values
-    - User input for velocity and launch angle 
+## Features
+
+- Simulates ideal projectile motion without air resistance
+- Simulates projectile motion with aerodynamic drag
+- Supports both custom inputs and predefined projectile types
+- Calculates:
+  - Horizontal range
+  - Maximum height
+  - Total flight time
+  - Terminal velocity
+  - Maximum speed reached
+- Generates trajectory graphs for visual analysis
+- Compares ideal and drag-affected trajectories
+- Object-oriented design with separated physics and user interface modules
+- Input validation and error handling
 
 ## Physics Model
 
@@ -43,12 +50,17 @@ python main.py
 
 ## Future Improvements
 
-- Add air resistance
+- Calculate impact speed at landing
+- Calculate minimum speed during flight
 - Add wind effects
-- Create real-time animation
-- Add GUI interface
-- Support moving targets
-- Add 3D projectile simulation
+- Add real-time trajectory animation
+- Export simulation data to CSV
+- Develop a graphical user interface (GUI)
+- Support additional projectile presets
+
+## Project Motivation
+
+This project was created to combine programming and engineering principles by modeling real-world projectile motion. The simulator allows users to compare idealized physics equations with more realistic drag-based motion and visualize the differences through trajectory graphs. 
 
 ## Author
 
